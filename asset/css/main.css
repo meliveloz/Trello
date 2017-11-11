@@ -1,0 +1,152 @@
+body{
+	background: #0079bf;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+.addbutton{
+	display: block;
+
+}
+
+.buttonthree{
+	display: block;
+}
+
+.container{
+	
+	width: 300px;
+	height: auto;
+	margin-top: 100px;
+	margin-left: 100px;
+	background-color:#E2E4E6;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	border: 3px solid white;
+	border-radius:0.5em;
+	overflow-x: auto;
+	float: left;
+	
+}
+
+#pluslist{
+	margin-top: 3em;
+}
+
+li{
+	
+	text-align: left;
+	background-color: white;
+	margin-bottom: 0.5em;
+	list-style: none;
+	padding-left: 1em;
+	color: #898989;
+	
+}
+
+button{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	border-radius: 0.3em;
+	margin-top: 1em;
+	background: #519839;
+	color:white;
+	cursor: pointer;
+}
+
+textarea{
+	margin-top: 1em;
+	border: 2px solid white;
+	border-radius: 1.5em;
+	width: 17em;
+    height: 5em;
+}
+h2{
+	font-size: 1em;
+}
+
+form{
+	text-align: center;
+}
+
+img{
+	padding-top: 0.5em;
+	margin-left: 26em;
+}
+nav{
+	background-color: #0067a3;
+	height: 3em;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.fa{
+	color:white;
+	margin-left: 2em;
+	font-size: 1.2em;
+	margin-right: 0.5em;
+	padding-bottom:0.5em;
+    
+	
+}
+
+.icon-left{
+	margin-right: 0em;
+	font-size: 1.2em;
+	padding-bottom: 5em;
+
+}
+.first-left{
+	margin-left: 21em;
+}
+span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: white;
+
+}
+
+#principal{
+	width: 100%;
+}
+
+#newtarget{
+	width:12em;
+	height: 6em;
+	margin-left: 100px;
+	background-color:#E2E4E6;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 1em;
+	margin-top: 4em;
+    display: inline-block;
+
+}
+
+.user{
+	width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    padding-top: 0;
+    border-radius: 50%;
+    margin-left: 3em
+
+}
+.user-left{
+	display: inline-block;
+}
+h5{
+	margin-left: 79.5%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: 1px dotted black;
+    border-radius: 1em;
+    display: inline-block;
+    padding: 0.4em;
+    margin-top: 0;
+    font-size: 0.8em;
+}
