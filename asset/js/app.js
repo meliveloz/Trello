@@ -3,7 +3,9 @@ function add(){
 var section=document.getElementById("principal");
 var container=document.createElement("div");
 container.classList.add("container");
+
 var newTarget=document.getElementById("newtarget");
+
 
  var addForm= document.createElement("form");
 
@@ -13,6 +15,7 @@ var newTarget=document.getElementById("newtarget");
 
 
  var addButton=document.createElement("button");
+
  addForm.appendChild(addInput);
  addForm.appendChild(addButton);
  container.appendChild(addForm);
@@ -21,6 +24,10 @@ var newTarget=document.getElementById("newtarget");
  addForm.classList.add("addform");
  addButton.classList.add("addbutton");
  addInput.classList.add("addinput");
+
+section.insertBefore(container,newTarget);
+
+
 
 
  addButton.addEventListener("click" , function(){
@@ -62,6 +69,8 @@ var newTarget=document.getElementById("newtarget");
 	 	   //container.appendChild(textAreaTwo); 
 	 	   container.insertBefore(listToDo,addFormTwo);  
 	 	   textArea.value="";
+
+
 	 	 
 	 	
 	 	 

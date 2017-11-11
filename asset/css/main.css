@@ -2,6 +2,8 @@ body{
 	background: #0079bf;
 	margin: 0;
 	padding: 0;
+	white-space: nowrap;
+	overflow-x: auto;
 
 }
 
@@ -20,17 +22,18 @@ body{
 	
 	width: 300px;
 	height: auto;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 0;
+	margin-left: 1em;
 	background-color:#E2E4E6;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	border: 3px solid white;
 	border-radius:0.5em;
-	overflow-x: auto;
-	float: left;
+	display: inline-block;
+	margin-bottom: 1em;
 	
 }
+
 
 #pluslist{
 	margin-top: 3em;
@@ -116,13 +119,14 @@ span{
 #newtarget{
 	width:12em;
 	height: 6em;
-	margin-left: 100px;
+	margin-left: 1em;
 	background-color:#E2E4E6;
 	text-align: center;
 	border: 2px solid white;
 	border-radius: 1em;
-	margin-top: 4em;
+	margin-top:0;
     display: inline-block;
+    margin-bottom: 1em;
 
 }
 
@@ -149,4 +153,22 @@ h5{
     padding: 0.4em;
     margin-top: 0;
     font-size: 0.8em;
+}
+h1{
+	margin-top: 2.5em;
+    display: inline-block;
+    color: white;
+    margin-left: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fa-star-o,.fa-lock{
+	margin-left: 1em;
+    font-size: 1em;
 }
