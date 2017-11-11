@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trello</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="asset/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> <!--enlazado de nuestra font-->
+	<link rel="stylesheet" type="text/css" href="asset/font-awesome-4.7.0/css/font-awesome.min.css"> <!--iconos-->
 	<link rel="stylesheet" type="text/css" href="asset/css/main.css">
 </head>
 <body>
+	<!--El navegador de nuestro trello-->
 	<nav>
 
 		<span><i class="fa fa-long-arrow-left" aria-hidden="true"></i></span>
@@ -22,16 +23,18 @@
 		</div>
 
 	</nav>
-		<div>
+
+	<div class="tablet"><!--título de nuestros tableros de listas-->
 			<h1>Tableros</h1> 
 			<i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-lock" aria-hidden="true"></i>
 			<a href="#" target="_blank">Private</a>
-		</div>
-		<section id="principal">
+	</div>
+
+	<section id="principal"><!--contenedor principal donde va el div que añade nuevas listas y el div que añade tareas a nuestras listas-->
 		
-			<div id="newtarget">
-				<button type="button" id="pluslist" onclick="add()">Añadir una nueva lista</button>
-			</div>
+		<div id="newtarget">
+			<button type="button" id="pluslist" onclick="add()">Añadir una nueva lista</button>
+		</div>
 	</section>
 	
 
